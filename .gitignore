@@ -1,0 +1,13 @@
+# Ignore large PCAPs or temp files
+*.pcapng
+*.pcap
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# OS-specific
+.DS_Store

@@ -1,0 +1,16 @@
+name: New Challenge Idea
+description: Suggest a Wireshark challenge
+labels: ["challenge"]
+body:
+  - type: input
+    attributes:
+      label: Challenge Title
+      placeholder: "e.g., Detect ARP Spoofing"
+  - type: dropdown
+    attributes:
+      label: Level
+      options: ["Beginner", "Intermediate", "Advanced"]
+  - type: textarea
+    attributes:
+      label: Description
+      description: What should users learn?
